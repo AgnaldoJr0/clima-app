@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgb(71, 1, 1) 0%, rgb(170, 5, 5) 100%);
+  }
+  
+  .form input {
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+  }
+
+  .form button {
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: flex;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+  }
+  
+  .container {
+    margin-top: 10px;
+    justify-content: space-between;
+    word-break: break-word;
+    color:whitesmoke;
+    padding: 2rem;
+    background-color: rgb(126, 3, 3);
+    background-size: cover;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .form{
+    display: flex;
+  }
+
+  #weather-data{
+  border-top: 1px solid #fff;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  }
+
+  #weather-data h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  }
+
+  #weather-data h2 i {
+    font-size: 1rem;
+  }
+
+  #weather-data span {
+    margin: 0.6rem;
+  }
+
+  #temperature {
+    font-size: 4rem;
+  }
+
+  #description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+  }
+
+  #description {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+
+  #details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #details-container #humidity {
+    border-right: 1px solid #fff;
+    margin: 0.6rem;
+    padding: 0.6rem;
+  }
