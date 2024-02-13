@@ -60,9 +60,9 @@ const showWeatherData = async (city) => {
   windElement.innerText = `${data.wind.speed} km/h`;
 
   if (data.main.temp > 15) {
-    container.style.backgroundImage = `url("assets/img/cold.jpg")`;
-  } else {
     container.style.backgroundImage = `url("assets/img/warm.jpg")`;
+  } else {
+    container.style.backgroundImage = `url("assets/img/cold.jpg")`;
   }
 
   weatherContainer.classList.remove("hide");
