@@ -47,6 +47,7 @@
     padding: 2rem;
     background-color: rgb(126, 3, 3);
     background-size: cover;
+    border-radius: 1rem;
   }
 
   .hide{
